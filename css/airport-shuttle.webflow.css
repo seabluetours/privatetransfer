@@ -396,7 +396,7 @@
 }
 
 .content5-image {
-  background-image: url('../images/mercedes-e-class-3066396.jpg');
+  background-image: url('../images/IstanbulNewAirport.jpg');
   background-position: 50% 100%;
   background-size: cover;
 }
@@ -429,6 +429,7 @@
 }
 
 .routes-section {
+  display: none;
   padding: 128px 36px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -673,6 +674,7 @@
   top: auto;
   right: 0%;
   bottom: 0%;
+  display: none;
   width: 582px;
   background-color: #030303;
 }
@@ -949,6 +951,69 @@
   text-transform: uppercase;
 }
 
+.second-head {
+  padding: 128px 36px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.hero-overlay {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 90vh;
+  max-height: 780px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url('../images/limo-car-a-premium-luxury-vehicle-on-black-vip-tra-XD5UZSC.jpg');
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/limo-car-a-premium-luxury-vehicle-on-black-vip-tra-XD5UZSC.jpg');
+  background-position: 0px 0px, 50% 50%;
+  color: #fff;
+}
+
+.centered-container {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
+.heading-4 {
+  margin-bottom: 32px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 56px;
+  line-height: 70px;
+  font-weight: 300;
+}
+
+.paragraph-73 {
+  opacity: 0.8;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 @media screen and (max-width: 991px) {
   .nav1-wrap {
     display: -ms-grid;
@@ -1130,6 +1195,11 @@
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   }
+
+  .second-head {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1279,6 +1349,15 @@
     grid-column-gap: 20px;
     -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .second-head {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .hero-overlay {
+    padding: 40px 20px;
   }
 }
 
@@ -1463,6 +1542,16 @@
     -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
+
+  .second-head {
+    padding-right: 16px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+  }
+
+  .centered-container {
+    text-align: left;
+  }
 }
 
 #w-node-c8e3a785aa52-4f6f42eb {
@@ -1524,6 +1613,50 @@
   grid-column-start: span 6;
   -ms-grid-column-span: 6;
   grid-column-end: span 6;
+}
+
+#w-node-442d8fae5edd-4f6f42eb {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 4;
+  grid-column-start: span 4;
+  -ms-grid-column-span: 4;
+  grid-column-end: span 4;
+}
+
+#w-node-442d8fae5ee3-4f6f42eb {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 8;
+  grid-column-start: span 8;
+  -ms-grid-column-span: 8;
+  grid-column-end: span 8;
+}
+
+#w-node-442d8fae5ee4-4f6f42eb {
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 3;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+
+#w-node-442d8fae5eec-4f6f42eb {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 2;
+  grid-row-start: span 2;
+  -ms-grid-row-span: 2;
+  grid-row-end: span 2;
 }
 
 #w-node-2e24cc1e9b31-4f6f42eb {
@@ -1709,6 +1842,17 @@
     grid-column-end: span 8;
   }
 
+  #w-node-442d8fae5edd-4f6f42eb {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 8;
+    grid-column-start: span 8;
+    -ms-grid-column-span: 8;
+    grid-column-end: span 8;
+  }
+
   #w-node-2e24cc1e9b31-4f6f42eb {
     -ms-grid-row: span 1;
     grid-row-start: span 1;
@@ -1829,6 +1973,57 @@
     grid-column-start: span 6;
     -ms-grid-column-span: 6;
     grid-column-end: span 6;
+  }
+
+  #w-node-442d8fae5edd-4f6f42eb {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 6;
+    grid-column-start: span 6;
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+
+  #w-node-442d8fae5ee3-4f6f42eb {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 6;
+    grid-column-start: span 6;
+    -ms-grid-column-span: 6;
+    grid-column-end: span 6;
+  }
+
+  #w-node-442d8fae5ee4-4f6f42eb {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-442d8fae5eec-4f6f42eb {
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+  }
+
+  #w-node-442d8fae5ef0-4f6f42eb {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
   }
 
   #w-node-2e24cc1e9b31-4f6f42eb {
@@ -1979,6 +2174,20 @@
   }
 
   #w-node-236e9ce263cd-4f6f42eb {
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+  }
+
+  #w-node-442d8fae5edd-4f6f42eb {
+    -ms-grid-column: span 4;
+    grid-column-start: span 4;
+    -ms-grid-column-span: 4;
+    grid-column-end: span 4;
+  }
+
+  #w-node-442d8fae5ee3-4f6f42eb {
     -ms-grid-column: span 4;
     grid-column-start: span 4;
     -ms-grid-column-span: 4;
