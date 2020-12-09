@@ -737,7 +737,7 @@ h3 {
   align-items: center;
   border-radius: 15px;
   background-color: #fff;
-  background-image: url('../images/CTA-Shapes2x.png');
+  background-image: url('.https://cbsofyalioglu.fra1.cdn.digitaloceanspaces.com/statics/airporttransfer.ist/images/CTA-Shapes2x.png');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -812,7 +812,7 @@ h3 {
   padding-bottom: 28px;
   padding-left: 80px;
   border: 0px none #000;
-  background-image: url('../images/mail-icon.svg');
+  background-image: url('https://cbsofyalioglu.fra1.cdn.digitaloceanspaces.com/statics/airporttransfer.ist/images/mail-icon.svg');
   background-position: 10% 50%;
   background-size: 20px;
   background-repeat: no-repeat;
@@ -1892,21 +1892,21 @@ h3 {
 
 @font-face {
   font-family: 'Circularstd';
-  src: url('../fonts/CircularStd-Medium.woff') format('woff');
+  src: url('https://cbsofyalioglu.fra1.cdn.digitaloceanspaces.com/statics/airporttransfer.ist/fonts/CircularStd-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Circularstd';
-  src: url('../fonts/CircularStd-Bold.woff') format('woff');
+  src: url('https://cbsofyalioglu.fra1.cdn.digitaloceanspaces.com/statics/airporttransfer.ist/fonts/CircularStd-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: auto;
 }
 @font-face {
   font-family: 'Circularstd book';
-  src: url('../fonts/CircularStd-Book.woff') format('woff');
+  src: url('https://cbsofyalioglu.fra1.cdn.digitaloceanspaces.com/statics/airporttransfer.ist/fonts/CircularStd-Book.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: auto;
